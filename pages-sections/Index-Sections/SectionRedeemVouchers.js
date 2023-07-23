@@ -59,7 +59,7 @@ export default function SectionRedeemVouchers() {
               <Grid item xs={12} sm={10}>
               <Typography variant="body" style={{fontSize: "1.2rem"}}>
                 <Stack spacing={2}>
-                  <span>Redeeeming a voucher has never been easier:</span>
+                  <span>Redeeming a voucher has never been easier:</span>
                   <Listing>
                     <NumberedListingItem number="1." textStyle={{fontSize: "1.1rem"}} text="Enter the voucher code and load the voucher" />
                     <NumberedListingItem number="2." textStyle={{fontSize: "1.1rem"}} text="Claim to know the passphrase and pay the claim fee" />

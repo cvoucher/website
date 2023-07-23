@@ -49,6 +49,7 @@ const componentsStyle = {
   },
   learnMoreButton: {
     background: "linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);",
+    boxShadow: "0px 0px 7px 3px #994e96",
     color: "#fff"
   }
 };
