@@ -83,7 +83,7 @@ const MainApp = ({props}) => {
           }}
           {...rest}
         />
-        <Parallax image="/img/bg/1.jpg">
+        <Parallax image="/img/bg/1.jpg" style={{backgroundPositionY: "45%"}}>
           <Grid container direction="column" justifyContent="center" style={{height: "100%"}}>
             <Grid item xs={12} sm={6} container justifyContent="center" alignContent="center">
               <Grid item>
