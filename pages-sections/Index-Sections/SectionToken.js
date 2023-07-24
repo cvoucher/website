@@ -51,10 +51,10 @@ const UniswapBuyButton = (props) => {
 }
 
 const PresaleButton = (props) => {
-  const presaleAddress = "https://www.pinksale.finance/launchpad/0xE6d033f9927391807cb0C41cF3270204b4b1cC6E?chain=ETH";
+  const presaleAddress = "https://www.pinksale.finance/launchpad";
 
   return (
-    <Button href={presaleAddress} target="_blank" {...props}>Enter presale on Pinksale</Button>
+    <Button href={presaleAddress} target="_blank" {...props} disabled>Presale starting soon</Button>
   )
 }
 
@@ -170,9 +170,9 @@ export default function SectionToken() {
           </Grid>
           <Grid item style={{marginTop: "1rem"}}>
             <Typography variant="body">
-              The <strong>CVoucher project</strong> is backed by our very own $CROT token. 
+              The <strong>CVoucher project</strong> is backed by our very own $CVT token. 
               Our token contributes to the fundraising of our project and ensures its growth.
-              Investors are able to become a part of $CROT by grabbing themselves a bag. 
+              Investors are able to become a part of $CVT by grabbing themselves a bag. 
               Token fees are low and used to stabilize project health and investors shares.<br /><br />
               Since our token did not launch yet, we are running our presale on PinkSale. 
               Read through the website to get a good idea about cvoucher and how we revolutionize decentralized crypto gifting.
