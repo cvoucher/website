@@ -79,6 +79,16 @@ export default function HeaderLinks(props) {
           Socials
         </Button>
       </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="https://docs.cryptovoucher.tech/crypto-vouchers/"
+          target="_blank"
+          color="transparent"
+          className={classes.navLink}
+        >
+          Docs
+        </Button>
+      </ListItem>
     </List>
   );
 }

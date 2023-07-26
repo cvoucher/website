@@ -73,7 +73,7 @@ const MainApp = ({props}) => {
 
         `}</style>
         <Header
-          brand="CVoucher"
+          brand="Crypto Vouchers"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -90,7 +90,7 @@ const MainApp = ({props}) => {
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Crypto Vouchers</h1>
                   <h3 className={classes.subtitle} style={{marginTop: "6vh"}}>
-                    Generating and redeeming decentralized crypto gifts has never been more easy and secure.
+                    Generating and redeeming decentralized crypto vouchers has never been more easy and secure.
                   </h3>
                   <h3 className={classes.subtitle} style={{marginTop: "3vh"}}>
                     <strong>Welcome to gifting on the blockchain.</strong>

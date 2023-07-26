@@ -29,7 +29,7 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div>
-        &copy; {1900 + new Date().getYear()} <strong>CVoucher</strong> based upon the template framework of {" "}
+        &copy; {1900 + new Date().getYear()} <strong>Crypto Voucher</strong> based upon the template framework of {" "}
         <a
           href="https://www.creative-tim.com?ref=njsmk-footer"
           className={aClasses}

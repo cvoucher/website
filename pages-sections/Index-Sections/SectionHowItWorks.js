@@ -113,7 +113,7 @@ const Redemption = () => {
         </Grid>
         <ArrowStep />
         <Grid item xs={12} sm={5} lg={2}>
-          <StepCard num={3} icon={<Password style={{fill:"#10314e", width: "4em", height: "4em"}} />} content="Provide the passphrase within five minutes (Phase 2)" />
+          <StepCard num={3} icon={<Password style={{fill:"#10314e", width: "4em", height: "4em"}} />} content="Provide the passphrase within ten minutes (Phase 2)" />
         </Grid>
         <ArrowStep />
         <Grid item xs={12} sm={5} lg={2}>
@@ -129,7 +129,7 @@ const Redemption = () => {
         Redeeming the voucher by using the correct passphrase is <strong>Phase 2</strong>.<br /><br />
         Because any user can always claim a voucher and therefore lock a voucher without knowing the secret, we introduce a claim fee. 
         That fee is payed during claim, at <strong>Phase 1</strong>, and fully returned after successful redemption, at <strong>Phase 2</strong>.<br />
-        <strong>Users are able to redeem a voucher within five minutes after claim. </strong>
+        <strong>Users are able to redeem a voucher within ten minutes after claim. </strong>
         If they fail to do so, they have to face a heavy penalty on the claim fee. 
         This discourages malicious actors from claiming vouchers they don't know the secret from.
         We punish the bad guys and guard the good guys.<br />

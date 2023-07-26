@@ -62,12 +62,13 @@ const PhaseOne = () => {
           </Typography>
           <Divider />
           <Listing>
-            <CheckedListItem title="CVoucher release v1.0" />
+            <CheckedListItem title="Crypto Voucher release v1.0" />
             <CheckedListItem title="Website launch" />
             <ActiveListItem title="Presale" />
             <ActiveListItem title="Listing on coin sites" />
+            <ActiveListItem title="Team expansion" />
             <InactiveListItem title="CMC and CG listings" />
-            <InactiveListItem title="Give-aways" />
+            <InactiveListItem title="Giveaways" />
           </Listing>
         </CardContent>
       </CardActionArea>
@@ -92,9 +93,11 @@ const PhaseTwo = () => {
           <Divider />
           <Listing>
             <ActiveListItem title="DApp development" />
+            <ActiveListItem title="Team expansion" />
             <InactiveListItem title="Support for ERC20 tokens" />
             <InactiveListItem title="Enhanced advertisement and promotion" />
-            <InactiveListItem title="Give-aways" />
+            <InactiveListItem title="Cooperation with blockchain service providers" />
+            <InactiveListItem title="Giveaways" />
           </Listing>
         </CardContent>
       </CardActionArea>
@@ -122,7 +125,7 @@ const PhaseThree = () => {
             <InactiveListItem title="Expansion to other blockchains" />
             <InactiveListItem title="Cross-blockchain vouchers" />
             <InactiveListItem title="Press-release and wide-spread adaptation" />
-            <InactiveListItem title="Give-aways" />
+            <InactiveListItem title="Giveaways" />
           </Listing>
         </CardContent>
       </CardActionArea>

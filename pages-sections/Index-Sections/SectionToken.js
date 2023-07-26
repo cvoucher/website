@@ -170,12 +170,12 @@ export default function SectionToken() {
           </Grid>
           <Grid item style={{marginTop: "1rem"}}>
             <Typography variant="body">
-              The <strong>CVoucher project</strong> is backed by our very own $CVT token. 
+              The crypto voucher project is backed by our very own <strong>$CVT</strong> token. 
               Our token contributes to the fundraising of our project and ensures its growth.
-              Investors are able to become a part of $CVT by grabbing themselves a bag. 
+              Investors are able to become a part of <strong>$CVT</strong> by grabbing themselves a bag. 
               Token fees are low and used to stabilize project health and investors shares.<br /><br />
               Since our token did not launch yet, we are running our presale on PinkSale. 
-              Read through the website to get a good idea about cvoucher and how we revolutionize decentralized crypto gifting.
+              Read through the website to get a good idea about crypto voucher and how we revolutionize decentralized crypto gifting.
               Join our socials and participate in the presale to become a member of our community.<br />
               <strong>The team does not own any tokens initially. </strong>
               When we do hold tokens, we bought them with our own private funds.
