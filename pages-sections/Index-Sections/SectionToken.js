@@ -61,8 +61,9 @@ const PresaleButton = (props) => {
 const TokenDistributionChart = () => {
   const canvas = useRef();
   const distribution = {
-    "Decentralized Exchange": 80,
-    "Staking": 20
+    "Decentralized Exchange": 60,
+    "CEX/DEX Listing Reserves": 30,
+    "Staking": 10
   };
 
   useEffect(() => {
