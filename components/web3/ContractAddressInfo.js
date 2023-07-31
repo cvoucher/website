@@ -28,7 +28,7 @@ const useStyles = makeStyles(styles);
 
 const ContractAddressInfo = (props) => {
   const classes = useStyles();
-  const tokenAddress = "Revealed soon";
+  const tokenAddress = "0x34DAaCe448Bf390BA014f3D2D169A89f559E6fE1";
   const onCopyClick = () => {
     navigator.clipboard.writeText(tokenAddress);
     Notification.show("Address copied to clipboard!");

@@ -72,7 +72,7 @@ export default function SectionWhatWeDo() {
         <Grid item xs={12} sm={12} md={6} xl={3}>
           <WhatWeDoCard background="/img/sections/what-we-do/blockchain-based-payment.jpg" icon={<Ethereum style={{color: "#28946e", fill: "currentColor"}} />} title="Blockchain-based payment">
           With <strong>$FAI</strong>, we are creating a new paradigm in agriculture, incentivizing contributors through a governance model that rewards long-term participation and contributes to the growth and sustainability of the ecosystem.
-          As a first-class payment solution for our services, <strong>$FAI</strong> puts power and responsibility into our community to drive the future of CVoucher Solutions.
+          As a first-class payment solution for our services, <strong>$FAI</strong> puts power and responsibility into our community to drive the future of Crypto Voucher Solutions.
           Our ecosystem is built on trust, transparency, and collaboration, and we are excited to be at the forefront of this revolutionary change.
           </WhatWeDoCard>
         </Grid>

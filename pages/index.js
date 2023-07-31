@@ -95,7 +95,7 @@ const MainApp = ({props}) => {
                   <h3 className={classes.subtitle} style={{marginTop: "3vh"}}>
                     <strong>Welcome to gifting on the blockchain.</strong>
                   </h3>
-                  <Button href="/#how-it-works" className={classes.learnMoreButton}>Learn more</Button>
+                  <Button href="https://www.pinksale.finance/launchpad/0x96a9c5cd3a74f134617dEbe0D1D7cff9A129c07f?chain=ETH" target="_blank" className={classes.learnMoreButton}>Our presale has started!</Button>
                 </div>
               </Grid>
             </Grid>

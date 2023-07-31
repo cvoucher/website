@@ -34,7 +34,7 @@ import { configureChains, createConfig, WagmiConfig } from 'wagmi'
 import { arbitrum, mainnet, polygon } from 'wagmi/chains'
 import { ganache } from "../web3/ganache-chain";
 import NotificationWidget from "../components/Notification/Notification";
-const chains = process.env.NEXT_PUBLIC_LIVE ? [mainnet] : [ganache];
+const chains = process.env.NEXT_PUBLIC_LIVE === "true" ? [mainnet] : [ganache];
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })])

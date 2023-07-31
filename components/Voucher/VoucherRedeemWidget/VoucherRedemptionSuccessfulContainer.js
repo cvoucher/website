@@ -36,7 +36,7 @@ const RedemptionSuccessfulContainer = ({voucherState, voucherStageState}) => {
       <Grid item style={{textAlign: "center"}}>
         <Typography variant="body" style={{fontSize: "1.1rem"}}>
           Redemption has been successful, congratulations!
-          Thank you for being part of <strong>CVoucher</strong>, see you soon.
+          Thank you for being part of <strong>Crypto Voucher</strong>, see you soon.
         </Typography>
       </Grid>
       <Grid item style={{marginTop: 10}}>

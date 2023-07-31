@@ -51,10 +51,10 @@ const UniswapBuyButton = (props) => {
 }
 
 const PresaleButton = (props) => {
-  const presaleAddress = "https://www.pinksale.finance/launchpad";
+  const presaleAddress = "https://www.pinksale.finance/launchpad/0x96a9c5cd3a74f134617dEbe0D1D7cff9A129c07f?chain=ETH";
 
   return (
-    <Button href={presaleAddress} target="_blank" {...props} disabled>Presale starting soon</Button>
+    <Button href={presaleAddress} target="_blank" {...props}>Enter presale</Button>
   )
 }
 
